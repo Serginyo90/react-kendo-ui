@@ -7,6 +7,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  
   handleAddName() {
     console.log('handleAddName', this.refInput.value);
     this.props.onAddName(this.refInput.value);
