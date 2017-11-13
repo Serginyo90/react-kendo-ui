@@ -2,6 +2,69 @@
 # yarn lockfile v1
 
 
+"@progress/kendo-base-component-react-wrapper@2017.3.1026":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-base-component-react-wrapper/-/kendo-base-component-react-wrapper-2017.3.1026.tgz#0aeb9baeec1c1294f6285b2916827eea5e43d1de"
+
+"@progress/kendo-buttons-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-buttons-react-wrapper/-/kendo-buttons-react-wrapper-2017.3.1026.tgz#7c2e7f67a729436607fd7fd6b52cb78fcbd8e8e2"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
+"@progress/kendo-dateinputs-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-dateinputs-react-wrapper/-/kendo-dateinputs-react-wrapper-2017.3.1026.tgz#ea8742513577ddb70184763b00f1fed90658e2cd"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
+"@progress/kendo-dropdowns-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-dropdowns-react-wrapper/-/kendo-dropdowns-react-wrapper-2017.3.1026.tgz#d220b3071ef8dd9963418d9c88be718458f27f2a"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
+"@progress/kendo-grid-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-grid-react-wrapper/-/kendo-grid-react-wrapper-2017.3.1026.tgz#bfa45ef3a0bfc73d961d4edd9c75fbb0466e8e40"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+    deep-equal "^1.0.1"
+
+"@progress/kendo-inputs-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-inputs-react-wrapper/-/kendo-inputs-react-wrapper-2017.3.1026.tgz#f35894aa443c3f88d402971868a9ba24dfa4a374"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
+"@progress/kendo-layout-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-layout-react-wrapper/-/kendo-layout-react-wrapper-2017.3.1026.tgz#e5ee4f910d702656e63061b09ca6f1e4de29cd71"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
+"@progress/kendo-popups-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-popups-react-wrapper/-/kendo-popups-react-wrapper-2017.3.1026.tgz#b12804e899467ff8d9239a48987105b21c7f2f72"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
+"@progress/kendo-theme-default@latest":
+  version "2.44.0"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-theme-default/-/kendo-theme-default-2.44.0.tgz#ca7818e0cd5c7d2bf866799ba4c05e091d9c4d35"
+
+"@progress/kendo-ui@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-ui/-/kendo-ui-2017.3.1026.tgz#366063b1a610cdebb219d8c46c9217cc06b6f098"
+  dependencies:
+    jquery "<=3"
+
+"@progress/kendo-window-react-wrapper@latest":
+  version "2017.3.1026"
+  resolved "https://registry.yarnpkg.com/@progress/kendo-window-react-wrapper/-/kendo-window-react-wrapper-2017.3.1026.tgz#8c9686487f50eb0e3299715eb4c708aa6a0829c6"
+  dependencies:
+    "@progress/kendo-base-component-react-wrapper" "2017.3.1026"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"
@@ -3676,6 +3739,10 @@ jest@20.0.4:
   resolved "https://registry.yarnpkg.com/jest/-/jest-20.0.4.tgz#3dd260c2989d6dad678b1e9cc4d91944f6d602ac"
   dependencies:
     jest-cli "^20.0.4"
+
+jquery@<=3:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
 js-base64@^2.1.9:
   version "2.3.2"

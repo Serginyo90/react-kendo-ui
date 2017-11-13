@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import * as kendo from '@progress/kendo-ui';
+import '@progress/kendo-theme-default/dist/all.css';
 import { getNames } from './actions/names.js';
 import logo from './logo.svg';
 import './App.css';
